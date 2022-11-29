@@ -1,0 +1,287 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: Variable1
+  Id: g=31d7c69461c3eb7bb3d487d3b4b75a16
+  Type: BaseDataVariableType
+  DataType: Number
+  ValueRank: 2
+  ArrayDimensions: [4,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [4,2],
+    "Body": [
+     0,0,
+     0,0,
+     0,0,
+     0,0
+    ]
+   }
+- Name: Variable2
+  Id: g=229d74eba2bb0d9292d47bfe474a062c
+  Type: BaseDataVariableType
+  DataType: Number
+  ValueRank: 2
+  ArrayDimensions: [4,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [4,2],
+    "Body": [
+     0,0,
+     0,0,
+     0,0,
+     0,0
+    ]
+   }
+- Name: XValue
+  Id: g=5823b3cfa49659c9d702f630e37b9f7c
+  Type: BaseDataVariableType
+  DataType: Number
+  Value: {"Type":6,"Body":0}
+- Name: YValue
+  Id: g=3a1e9e7d145b007d219687b16ce90535
+  Type: BaseDataVariableType
+  DataType: Number
+  Value: {"Type":6,"Body":0}
+- Name: V1_x0
+  Id: g=df077b22f4b2674a92e369eb06d1e633
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[0,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V1_y0
+  Id: g=b75b2be40f6d8702818325320d12346d
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[0,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V1_x1
+  Id: g=6f2b1fcbc7db681da817fd48899cae3a
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[1,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V1_y1
+  Id: g=86cb28550206c81507ceabb21c954b83
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[1,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V1_x2
+  Id: g=b6a6fba227369c6f04bd97ad199945cb
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[2,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V1_y2
+  Id: g=289754b56b0cd3a03f501cc928c2cce3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[2,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V1_x3
+  Id: g=d61e800c6df46b763a51b1e99d645ebc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[3,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V1_y3
+  Id: g=50f1d348d9f41a7f375d0dcd2c8e8e36
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable1[3,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_x0
+  Id: g=43b9d8a53ccb1b21bc90852e73d14d34
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[0,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_y0
+  Id: g=90a277157b40ec19a4668c42821375ef
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[0,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_x1
+  Id: g=8248b349aeb72eacae029ca562dd1bfc
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[1,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_y1
+  Id: g=2fd88f0b74c34b0ab8eefc159c3a1e29
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[1,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_x2
+  Id: g=41fdc5f1be2aacfac9ecbfe25c0da4fb
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[2,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_y2
+  Id: g=8bb7e82c4e8e1b2d331de49eccb493a3
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[2,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_x3
+  Id: g=5e5cc6542ca5009f91a31674058af6d6
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[3,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: V2_y3
+  Id: g=01985cf0e12574fc007bb05ad7c5db89
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../Variable2[3,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
